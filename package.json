@@ -17,7 +17,7 @@
     "react-axios": "^2.0.6",
     "react-bootstrap": "^2.7.0",
     "react-dom": "^18.2.0",
-    "react-i18next": "^12.1.1",
+    "react-i18next": "^12.1.4",
     "react-icons": "^4.7.1",
     "react-intl": "^6.2.5",
     "react-router": "^6.6.1",
