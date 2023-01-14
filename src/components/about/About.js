@@ -1,6 +1,4 @@
 import React from "react";
-import Footer from "../Footer";
-import Header from "../Header";
 import "./About.css";
 import Probe from "../../assets/complete_probe.png";
 
