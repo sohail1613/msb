@@ -1,0 +1,10 @@
+.afc-header--dark{
+    position: inherit;
+}
+
+.afc-header--style-1 .afc-header__navbar__links > ul > li{
+    line-height: 1;
+}
+.afc-header--style-1 .afc-header__navbar__links{
+    width: inherit;
+}
