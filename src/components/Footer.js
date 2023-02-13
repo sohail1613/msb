@@ -1,7 +1,9 @@
 import React from "react";
 import "./Footer.css";
 import Logo from "../assets/logos.avif";
+import { useTranslation } from "react-i18next";
 const Footer = () => {
+  const { t, i18n } = useTranslation();
   return (
     <>
       <div>
@@ -16,56 +18,55 @@ const Footer = () => {
             {/*  for company name and description */}
             <div className="footer-items">
               <a href="/">
-                <img src={Logo} alt="Logo"/>
+                <img src={Logo} alt="Logo" />
               </a>
               {/* <h1>MSB Makina</h1> */}
               {/* <img src={Logo}/> */}
               <p>
-                We privide high quality machines and our <br />
-                customer satisfaction is priority.
+              {t('footer.paragraph')}
               </p>
             </div>
             {/*  for quick links  */}
             <div className="footer-items">
-              <h3>Quick Links</h3>
+              <h3>{t('footer.quickLinks')}</h3>
               <div className="border1" /> {/*for the underline */}
               <ul>
                 <a href="/">
-                  <li>Home</li>
+                  <li>{t('footer.home')}</li>
                 </a>
                 <a href="#">
-                  <li>Search</li>
+                  <li>{t('footer.search')}</li>
                 </a>
                 <a href="/contact">
-                  <li>Contact</li>
+                  <li>{t('footer.contacts')}</li>
                 </a>
                 <a href="/about">
-                  <li>About</li>
+                  <li>{t('footer.aboutus')}</li>
                 </a>
               </ul>
             </div>
             {/*  for some other links */}
             <div className="footer-items">
-              <h3>Services</h3>
+              <h3>{t('footer.services')}</h3>
               <div className="border1" /> {/*for the underline */}
               <ul>
                 <a href="/products">
-                  <li>Grain Sampler</li>
+                  <li>{t('footer.grainSampler')}</li>
                 </a>
                 <a href="#">
-                  <li>Elektrik</li>
+                  <li>{t('footer.electrical')}</li>
                 </a>
                 <a href="#">
-                  <li>Nakliye</li>
+                  <li>{t('footer.mechanical')}</li>
                 </a>
                 <a href="/products">
-                  <li>Makine</li>
+                  <li>{t('footer.transportation')}</li>
                 </a>
               </ul>
             </div>
             {/*  for contact us info */}
             <div className="footer-items">
-              <h3>Contact us</h3>
+              <h3>{t('footer.contacts')}</h3>
               <div className="border1" />
               <ul>
                 <li>
@@ -88,13 +89,13 @@ const Footer = () => {
                   <a href="https://api.whatsapp.com/send/?phone=905322872185&text&type=phone_number&app_absent=0">
                     <i className="fa fa-whatsapp" aria-hidden="true" />
                   </a>
-                  Quick Enquiry
+                  {t('footer.whatsapp')}
                 </li>
                 <li>
                   <a href="https://www.instagram.com/msbelektrikmakina/">
                     <i className="fa fa-instagram" aria-hidden="true" />
                   </a>
-                  Follow on Instagram
+                  {t('footer.instagram')}
                 </li>
               </ul>
               {/*   for social links */}
@@ -112,7 +113,7 @@ const Footer = () => {
             </div>
           </div>
           {/*   Footer Bottom start  */}
-          <div className="footer-bottom">Copyright © MSB Makina 2022.</div>
+          <div className="footer-bottom">{t('footer.copyright')} © MSB Makina 2022.</div>
         </div>
       </div>
     </>

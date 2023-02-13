@@ -8,22 +8,15 @@ import { AiOutlineGlobal } from "react-icons/ai";
 const languages = [
   { value: "", text: "Options" },
   { value: "tr", text: "Türkçe" },
-  { value: "ku", text: "Kurdî" },
-  { value: "ar", text: "عربي" },
   { value: "en", text: "English" },
-  { value: "az", text: "Azərbaycan" },
-  { value: "de", text: "Deutsch" },
 ];
 
 const Header = () => {
-  const { t } = useTranslation();
-  const [language, setLanguage] = useState("tr");
+  const { t ,i18n} = useTranslation();
 
   // this function use query to change language
   const handleLanguage = (e) => {
-    setLanguage(e.target.value);
-    let local = "http://localhost:3000";
-    window.location.replace(local + "?lang=" + e.target.value);
+  i18n.changeLanguage(e)
   };
 
   return (
@@ -53,14 +46,14 @@ const Header = () => {
                     className="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-1497"
                     data-menu-anchor
                   >
-                    <a href="/">Home</a>
+                    <a href="/">{t('nav.home')}</a>
                   </li>
                   <li
                     id="nav-menu-item-1498"
                     className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1498"
                     data-menu-anchor
                   >
-                    <a href="/about">About Us</a>
+                    <a href="/about">{t('nav.aboutus')}</a>
                     {/* <ul className="sub-menu">
                       <li
                         id="nav-menu-item-2158"
@@ -75,7 +68,7 @@ const Header = () => {
                     className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1499"
                     data-menu-anchor
                   >
-                    <a href="/products">Products</a>
+                    <a href="/products">{t('nav.products')}</a>
                     {/* <ul className="sub-menu">
                       <li
                         id="nav-menu-item-2155"
@@ -90,25 +83,25 @@ const Header = () => {
                     className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1500"
                     data-menu-anchor
                   >
-                    <a href="/section">Services</a>
+                    <a href="/section">{t('nav.services')}</a>
                     <ul className="sub-menu">
                       <li
                         id="nav-menu-item-2160"
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2160"
                       >
-                        <a href="/makina">Makina</a>
+                        <a href="/makina">{t('nav.mechanical')}</a>
                       </li>
                       <li
                         id="nav-menu-item-2161"
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2161"
                       >
-                        <a href="/electric">Electric</a>
+                        <a href="/electric">{t('nav.electrical')}</a>
                       </li>
                       <li
                         id="nav-menu-item-2161"
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2161"
                       >
-                        <a href="/nakliya">Nakliya</a>
+                        <a href="/nakliya">{t('nav.transportation')}</a>
                       </li>
                     </ul>
                   </li>
@@ -117,20 +110,20 @@ const Header = () => {
                     className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1501"
                     data-menu-anchor
                   >
-                    <a href="#">Announcement</a>
+                    <a href="#">{t('nav.announcement')}</a>
                     <ul className="sub-menu">
                       <li
                         id="nav-menu-item-3454"
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-3454"
                       >
-                        <a href="#">New Products</a>
+                        <a href="#">{t('nav.newProducts')}</a>
                       </li>
                       <li
                         id="nav-menu-item-3453"
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-3453"
                       >
                         <a href="http://wp.afracode.com/mitra/blog-chess-style/">
-                          News
+                        {t('nav.news')}
                         </a>
                       </li>
                     </ul>
@@ -140,7 +133,7 @@ const Header = () => {
                     className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1502"
                     data-menu-anchor
                   >
-                    <a href="/contact">Contacts</a>
+                    <a href="/contact">{t('nav.contacts')}</a>
                     {/* <ul className="sub-menu">
                       <li
                         id="nav-menu-item-2183"

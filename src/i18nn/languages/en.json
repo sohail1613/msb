@@ -1,0 +1,43 @@
+{
+    "nav": {
+        "home":"Home",
+        "aboutus":"About Us",
+        "products": "Products",
+        "services": "Services",
+        "mechanical": "Mechanical",
+        "electrical": "Electrical",
+        "transportation": "Transportation",
+        "announcement": "Announcement",
+        "newProducts": "New Products",
+        "news" : "News",
+        "contacts": "Contacts"
+    },
+
+
+    "details":{
+        "review":"Completed 507+ Projects Successfully",
+        "quality":"Top Quality",
+        "experience":"Experience",
+        "deliveredProjects": "Delivered Projects",
+        "clientSatisfaction": "Client Satisfaction"
+    },
+
+    "footer": {
+        "paragraph":" We privide high quality machines.",
+        "quickLinks":"Quick Links",
+        "home":"Home",
+        "search":"Search",
+        "contacts":"Contacts",
+        "aboutus":"About Us",
+
+        "services": "Services",
+        "grainSampler":"Grain Sampler",
+        "mechanical": "Mechanical",
+        "electrical": "Electrical",
+        "transportation": "Transportation",
+        "whatsapp":"Quick enquiry",
+        "instagram":"Follow us on Instagram",
+
+        "copyright":"copyright"
+    }
+}

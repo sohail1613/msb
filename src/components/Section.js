@@ -3,8 +3,11 @@ import "./Section.css";
 import SimpleImageSlider from "react-simple-image-slider";
 import Probe from "../assets/probe.png";
 import Slider from "./slider/Slider";
+import { useTranslation } from "react-i18next";
 
 const Section = () => {
+  const { t ,i18n} = useTranslation();
+
   return (
     <>
       <div>
@@ -18,7 +21,7 @@ const Section = () => {
         </div>
         <div className="afc-search-form afc-search-form--style-1">
           <div className="afc-search-form__logo afc-search-form__logo--style-1">
-            <span className="afc-fullscreen-menu__logo__text">Mitra</span>
+            {/* <span className="afc-fullscreen-menu__logo__text">Mitra</span> */}
           </div>
           <button
             type="button"
@@ -191,7 +194,7 @@ const Section = () => {
                                               <div>
                                                 <div className="afc-creative-tag afc-creative-tag--style-1">
                                                   <span className="afc-creative-tag__text">
-                                                    TOP QUALITY
+                                                  {t('details.quality')}
                                                   </span>
                                                 </div>
                                               </div>
@@ -215,9 +218,9 @@ const Section = () => {
                                                 <div>
                                                   <h2 className="afc-heading__title default">
                                                     <span className="afc-heading__title__text afc-heading__title__main">
-                                                      Completed 507+ Projects
-                                                      <br />
-                                                      Successfully
+                                                    {t('details.review')}
+                                                      {/* <br />
+                                                      Successfully */}
                                                     </span>
                                                   </h2>
                                                   <p className="afc-heading__subtitle">
@@ -277,7 +280,7 @@ const Section = () => {
                                                             20+
                                                           </h4>
                                                           <p className="afc-infobox-img__description">
-                                                            Experince
+                                                          {t('details.experience')}
                                                           </p>
                                                         </div>
                                                       </div>
@@ -290,7 +293,7 @@ const Section = () => {
                                                             507+
                                                           </h4>
                                                           <p className="afc-infobox-img__description">
-                                                            Delivered Project
+                                                          {t('details.deliveredProjects')}
                                                           </p>
                                                         </div>
                                                       </div>
@@ -303,7 +306,7 @@ const Section = () => {
                                                             100%
                                                           </h4>
                                                           <p className="afc-infobox-img__description">
-                                                            Client Satification
+                                                          {t('details.clientSatisfaction')}
                                                           </p>
                                                         </div>
                                                       </div>
@@ -1303,7 +1306,7 @@ const Section = () => {
                                                   <h2 className="afc-heading__title default">
                                                     <span className="afc-heading__title__text afc-heading__title__main">
                                                       {/* Special Quotes from <br /> */}
-                                                      Our Services.
+                                                      {t('nav.services')}
                                                     </span>
                                                   </h2>
                                                 </div>
@@ -1377,7 +1380,7 @@ const Section = () => {
                                                 </div>
                                                 <div className="afc-infobox-img__body">
                                                   <h4 className="afc-infobox-img__title">
-                                                    Makina
+                                                  {t('nav.mechanical')}
                                                   </h4>
                                                   <p className="afc-infobox-img__description">
                                                     Lorem ipsum dolor sit amet
@@ -1426,7 +1429,7 @@ const Section = () => {
                                                 </div>
                                                 <div className="afc-infobox-img__body">
                                                   <h4 className="afc-infobox-img__title">
-                                                    Electronic
+                                                  {t('nav.electrical')}
                                                   </h4>
                                                   <p className="afc-infobox-img__description">
                                                     Lorem ipsum dolor sit amet
@@ -1475,7 +1478,7 @@ const Section = () => {
                                                 </div>
                                                 <div className="afc-infobox-img__body">
                                                   <h4 className="afc-infobox-img__title">
-                                                    Transportation
+                                                  {t('nav.transportation')}
                                                   </h4>
                                                   <p className="afc-infobox-img__description">
                                                     Lorem ipsum dolor sit amet

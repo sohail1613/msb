@@ -1,0 +1,42 @@
+{
+    "nav": {
+        "home":"Ana sayfa",
+        "aboutus":"Hakkımızda",
+        "products": "Ürünler",
+        "services": "Hizmetler",
+        "mechanical": "Mekanik",
+        "electrical": "Elektrik",
+        "transportation": "Nakliye",
+        "announcement": "Duyuru",
+        "newProducts": "Yeni ürünler",
+        "news" : "Haberler",
+        "contacts": "İletişim"
+    },
+
+    "details":{
+        "review":"507+ Projeyi Başarıyla Tamamladı",
+        "quality": "Üst kalite",
+        "experience": "Deneyim",
+        "deliveredProjects": "Teslim Edilen Projeler",
+        "clientSatisfaction": "Müşteri memnuniyeti"
+    },
+
+    "footer": {
+        "paragraph":"Yüksek kaliteli makineler sağlamakta.",
+        "quickLinks":"Hızlı Linkler",
+        "home":"Ana sayfa",
+        "search":"aramak",
+        "contacts":"İletişim",
+        "aboutus":"Hakkımızda",
+
+        "services": "Hizmetler",
+        "grainSampler":"Tahıl Örnekleyici",
+        "mechanical": "Mekanik",
+        "electrical": "Elektrik",
+        "transportation": "Nakliye",
+        "whatsapp":"Hızlı Soruşturma",
+        "instagram":"Instagram'da takip et",
+
+        "copyright":"Telif hakkı"
+    }
+}

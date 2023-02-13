@@ -27,36 +27,38 @@ const AllProducts = () => {
             <div className="col-lg-6">
               <h3>MSB GAB-306 Numune Alma Sondası </h3>
               <p>
-                MSB MARKASININ GAB-306 MODELİDİR.Cihaz sahip olduğu güçlü vakum
-                motoruyla buğday, arpa, çeltik, çavdar, yulaf gibi tahılların
-                yanı sıra, mısır, fasulye, nohut gibi ağır ürünleri de pnömatik
-                (vakumla) olarak 9 ila 12 saniyede laboratuvar ya da numune
-                odasındaki numune toplama kabına biriktirmektedir. Üzerinde
-                saydam penceresi olan numune toplama kabıyla, numune miktarı
-                takip edilebilmekte, istenirse numune alma miktarı
-                ayarlanabilmektedir. Numune kabı siklon yapısında olmadığı için
-                filtresi yoktur. Dolayısıyla sık sık filtre değişimine gerek
-                duymaz. Güçlü ve ağır gövdesinin salınım miktarı, 4 adet bayrak
-                direkleri sayesinde çok azaltılmıştır. Cihazın numune alma kolu
-                (boom) iç ve dış boom olarak iki kısımdan oluşur istenildiği
-                takdrde 3 boma kadarda uzatılabilir. İç boom dış boomun içinden
-                hidrolik olarak çıkarılarak numune alma mesafesi çok uzatılmış
-                olmaktadır. Böylece cihaz sağında ve solunda 5,5 metrelik alan
-                olmak üzere toplam 11 metrelik alanı tarayabilmektedir. Böylece
-                cihazın araçlara çok yakın mesafeye montaj zorunluluğu ortadan
-                kalkmaktadır. Ayrıca uzun kamyonlarda ve çekicilerde dahi araç
-                hareket ettirilmeden rahatlıkla numune alınabilmektedir. Prob
-                uzunluğu 2,5 m. Numune alma sondası 120 derece sağa ve 120
-                derece sola olmak üzere toplam 240 derece hareket
-                edebilmektedir. Joystick sayesinde hem kontrol odasından hem de
-                araç yakınından kumanda edilebilmektedir. Cihaz joyistiğiyle tüm
-                hareketleri kolayca yapabilmektedir. Cihaz sağ, sol, yukarı,
-                aşağı, ileri ve geri hareketlerin tamamını elektrik motorlarıyla
-                değil çok daha kuvvetli, hızlı, sessiz ve uzun ömürlü olan
-                hidrolik sistemle yaptığı için kullanım kolaylığı vardır.
-                Cihazın dış ölçüleri 75x75x400 cm dir. Cihaz net ağırlığı 530 kg
-                dır. Kullanım hataları hariç 2 yıl garanti ve 10 yıl yedek parça
-                temin garantisi vardır.
+                It is GAB-306 MODEL OF MSB BRAND. With its powerful vacuum
+                motor, the device is able to transport heavy products such as
+                corn, beans, chickpeas as well as grains such as wheat, barley,
+                paddy, rye, and oat pneumatically (with vacuum) in 9 to 12
+                seconds in the laboratory or sample room. collects the sample in
+                the collection container. With the sample collection container
+                with a transparent window on it, the sample amount can be
+                followed, and the sampling amount can be adjusted if desired.
+                Since the sample container is not in the cyclone structure, it
+                does not have a filter. Therefore, it does not require frequent
+                filter changes. The amount of oscillation of its strong and
+                heavy body has been greatly reduced thanks to 4 flagpoles. The
+                sampling arm (boom) of the device consists of two parts as inner
+                and outer boom, it can be extended up to 3 booms if desired. By
+                hydraulically removing the inner boom from the outer boom, the
+                sampling distance is greatly extended. Thus, the device can scan
+                an area of ​​11 meters in total, 5.5 meters on the right and
+                left. Thus, the necessity of mounting the device at a very close
+                distance to vehicles is eliminated. In addition, even in long
+                trucks and tow trucks, samples can be taken easily without
+                moving the vehicle. Probe length 2.5 m. The sampling probe can
+                move 120 degrees to the right and 120 degrees to the left, for a
+                total of 240 degrees. Thanks to the joystick, it can be
+                controlled both from the control room and near the vehicle. The
+                device can easily perform all movements with its joystick. Since
+                the device makes all of the right, left, up, down, forward and
+                backward movements not with electric motors, but with a much
+                stronger, fast, quiet and long-lasting hydraulic system, it is
+                easy to use. The external dimensions of the device are 75x75x400
+                cm. The net weight of the device is 530 kg. There is a 2-year
+                warranty and a 10-year spare part supply warranty, excluding
+                usage errors.
               </p>
             </div>
           </div>
@@ -76,12 +78,12 @@ const AllProducts = () => {
             <div className="col-lg-6">
               <h3>Hassas Terazi </h3>
               <p>
-                0,01 hassasiyettedir. Başta gıda, tahıl ve yem sektörü olmak
-                üzere bir çok sektor için çok değişik hassasiyet ve kapasitede
-                terazilerimiz kullanılmaktadır. Un fabrikalarında sıklıkla,
-                gluten, sedim, index tartımları ve genel tartımlar için
-                kullanılmaktadır. Kullanım hataları hariç 2 yıl garanti ve 10
-                yıl yedek parça temin garantisi vardır.
+                It has a sensitivity of 0.01. Our scales with very different
+                sensitivity and capacity are used for many sectors, especially
+                the food, grain and feed sector. It is frequently used in flour
+                mills for gluten, sediment, index and general weighing. There is
+                a 2-year warranty and a 10-year spare part supply warranty,
+                excluding usage errors.
               </p>
             </div>
           </div>
@@ -101,11 +103,11 @@ const AllProducts = () => {
             <div className="col-lg-6">
               <h3>MSB GAB-300 Numune Saklama Torbası </h3>
               <p>
-                30 cm uzunluğunda 15 cm eninde lisanslı depolarada sahit
-                numunenin saklanmasında kullanılan kullanılan torbadır.Şahit
-                numunenin rutubetlenmemesi için tamamen kaput bezinden
-                üretilmiştir. Ortalama 3 kg civarında buğday ve mısır
-                almaktadır.Her bir paketin içinden 25 adet çıkmaktadır.
+                It is a bag with a length of 30 cm and a width of 15 cm used to
+                store the witness sample in licensed warehouses. It is produced
+                entirely from hood cloth to prevent the witness sample from
+                getting damp. It takes around 3 kg of wheat and corn on average.
+                There are 25 pieces in each package.
               </p>
             </div>
           </div>
@@ -125,10 +127,9 @@ const AllProducts = () => {
             <div className="col-lg-6">
               <h3>MSB GAB-301 Şahit Numune Mührü </h3>
               <p>
-                Şahit numunelere numara vermek için lisanslı depolarda mecburi
-                olarak kullanılmakta olan bir üründür.Numune torbasının ağzını
-                kapatmak için ürün sahibine verilen bir kod gibi kullanılır
-                paket de 1000 adet olarak paketlenir.
+                Obligatory in licensed warehouses to number the witness samples.
+                It is a product used as used like a code given to the product
+                owner to turn it off The package is also packed in 1000 pieces.
               </p>
             </div>
           </div>
@@ -148,21 +149,21 @@ const AllProducts = () => {
             <div className="col-lg-6">
               <h3>MSB GAB-315 Nilemalitre </h3>
               <p>
-                Tahılların ağırlığını ve yoğunluğunu ölçmek için kullanılır.
-                Cihaz; buğday, pirinç, mısır, mercimek ve benzeri tahıllarda
-                Nilemalitre ölçmek için kullanılır. Buğdayda Nilemalitre
-                testinin amacı un verimini tahmin etmektir. Buğdayın
-                Nilemalitresi arttığında un verimi de artmaktadır. Nilemalitre
-                değeri: tanenin şekli, yoğunluğu, büyüklüğü ve yeknesaklığına
-                göre değişkenlik gösterir. Ölçüm kabı, dolum kabı, bıçak ve
-                dijital terazi olmak üzere 4 kısımdan oluşmaktadır. TSE ye uygun
-                sert pirinç malzemeden ve krom kaplı bakır, paslanmaz çelik ve
-                alüminyumdan üretilmiştir. Cihazımız ISO 7971- 3 standardına
-                uygundur. Portatiftir, rahatlıkla taşınabilmektedir. Cihazın
-                bıçağı paslanmaz çelikten üretilmektedir. Dijital terazili
-                olduğu için, uzun ayarlama ve tartımlar gerektirmemektedir.
-                Pratiktir, sonuçları kesindir. Kullanım hataları hariç 2 yıl
-                garanti, 10 yıl yedek parça garantisi vardır.
+                It is used to measure the weight and density of grains. Device;
+                in wheat, rice, corn, lentils and similar grains It is used to
+                measure nilemalitre. Nilemalitre of Wheat The purpose of the
+                test is to predict the flour yield. of wheat When the
+                nilemalitre increases, the flour yield also increases.
+                nilemliter value: the shape, density, size and uniformity of the
+                grain varies accordingly. measuring cup, filling cup, knife and
+                digital scale consists of 4 parts. Suitable for TSE made of hard
+                brass and chrome-plated copper, stainless steel and made of
+                aluminum. Our device complies with ISO 7971-3 standard.
+                suitable. It is portable and can be carried easily. device The
+                blade is made of stainless steel. with digital scales It does
+                not require long adjustments and weighings. It is practical, the
+                results are certain. 2 years excluding usage errors warranty, 10
+                years spare parts warranty.
               </p>
             </div>
           </div>
@@ -182,18 +183,18 @@ const AllProducts = () => {
             <div className="col-lg-6">
               <h3>MSB GAB-310 Masaüstü Numune Bölücü</h3>
               <p>
-                Cihaz analizi yapılacak ürünün homojen bir şekilde iki eşit
-                parçaya bölünmesini sağlar. Analizi yapılacak numune cihazın üst
-                kısmındaki dolum kabına konulur ve altında bulunan besleme
-                haznesine boşaltılır. Burada bulunan ayrı bölümlerden geçerek
-                numune iyice karışır ve iki kısma ayrılır. İkiye bölünen
-                numuneler ayrı çekmecelerde toplanır. Bu numunelerden yapılan
-                paralel (çifte) analizlerde birbirine çok yakın sonuçlar
-                alınması sağlanmış olur. Cihazın tüm parçaları paslanmaz
-                malzemeden imal edilmiştir. Hayat boyu paslanmazlık garantisi
-                vardır. Kullanım kolaylığı vardır, ergonomiktir. Kullanım
-                hataları hariç 2 yıl garanti, 10 yıl yedek parça garantisi
-                vardır.
+                The product to be analyzed by the device is homogeneously
+                divided into two equal parts. allows it to be divided into
+                parts. The sample to be analyzed is at the top of the device. It
+                is placed in the filling container in the emptied into the
+                reservoir. Going through the separate sections available here
+                The sample is thoroughly mixed and divided into two parts. split
+                in two samples are collected in separate drawers. made from
+                these samples very close results in parallel (double) analyzes
+                receipt is provided. All parts of the device are stainless made
+                of material. Lifetime rustproof guarantee has. It is easy to
+                use, ergonomic. Use 2 years warranty except faults, 10 years
+                spare parts warranty has.
               </p>
             </div>
           </div>
@@ -213,20 +214,21 @@ const AllProducts = () => {
             <div className="col-lg-6">
               <h3>MSB GAB-300 Hektolitre</h3>
               <p>
-                Tahılların yoğunluğunu ölçmek için kullanılır. Cihaz; buğday,
-                arpa, mısır ve benzeri tahıllarda hektolitre ölçmek için
-                kullanılır. Buğdayda hektolitre testinin amacı un verimini
-                tahmin etmektir. Buğdayın hektolitresi arttığında un verimi de
-                artmaktadır. Hektolitre değeri: tanenin şekli, yoğunluğu,
-                büyüklüğü ve yeknesaklığına göre değişkenlik gösterir. Ölçüm
-                kabı, dolum kabı, şamandıra, bıçak ve dijital terazi olmak üzere
-                5 kısımdan oluşmaktadır. TSE'ye uygun çekme pirinç malzemeden
-                üretilmiştir. Cihazımız ISO 7071-3 standartlarına uygundur. Tüm
-                parçalar birbirinden ayrılabilir, portatiftir, rahatlıkla
-                taşınabilmektedir. Cihazın bıçağı paslanmaz çelikten
-                üretilmektedir. Dijital terazili olduğu için, uzun ayarlama ve
-                tartımlar gerektirmemektedir. Kullanım hataları hariç 2 yıl
-                garanti ve 10 yıl yedek parça temin garantisi vardır.
+                It is used to measure the density of grains. Device; wheat, for
+                measuring hectoliters in barley, maize and similar grains used.
+                The aim of the hectoliter test in wheat is to determine the
+                flour yield. is to guess. When the hectoliter of wheat
+                increases, the flour yield also increases. increasing.
+                Hectoliter value: grain shape, density, varies in size and
+                uniformity. Measurement container, filling container, float,
+                blade and digital scale. It consists of 5 parts. Made of
+                extruded brass material conforming to TSE produced. Our device
+                complies with ISO 7071-3 standards. All parts can be separated
+                from each other, portable, easily can be transported. The blade
+                of the device is made of stainless steel is produced. Since it
+                has a digital scale, long adjustment and does not require
+                weighing. 2 years excluding usage errors There is a warranty and
+                a 10-year spare part supply guarantee.
               </p>
             </div>
           </div>

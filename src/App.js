@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { Suspense, useState } from "react";
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { useTranslation } from "react-i18next";
@@ -12,17 +12,13 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Electric from "./components/services/electric/Electric";
 import Makina from "./components/services/makina/Makina";
-import Nakliye from './components/services/nakliye/Nakliye'
+import Nakliye from "./components/services/nakliye/Nakliye";
 
 // Contains the value and text for the options
 const languages = [
   { value: "", text: "Options" },
   { value: "tr", text: "Turkish" },
-  { value: "ku", text: "Kurdish" },
-  { value: "ar", text: "Arabic" },
   { value: "en", text: "English" },
-  { value: "az", text: "Azerbaijani" },
-  { value: "de", text: "German" },
 ];
 
 function App() {
@@ -30,11 +26,11 @@ function App() {
   const [language, setLanguage] = useState("tr");
 
   // this function use query to change language
-  const handleLanguage = (e) => {
-    setLanguage(e.target.value);
-    let local = "http://localhost:3000";
-    window.location.replace(local + "?lang=" + e.target.value);
-  };
+  // const handleLanguage = (e) => {
+  //   setLanguage(e.target.value);
+  //   let local = "http://localhost:3000";
+  //   window.location.replace(local + "?lang=" + e.target.value);
+  // };
 
   return (
     <>
@@ -65,6 +61,9 @@ function App() {
           })}
         </select>
       </div> */}
+      <Suspense fallback={<div>Loading....</div>}>
+
+    
       <Header />
       <Router>
         <Routes>
@@ -80,6 +79,7 @@ function App() {
         </Routes>
       </Router>
       <Footer />
+      </Suspense>
     </>
   );
 }
