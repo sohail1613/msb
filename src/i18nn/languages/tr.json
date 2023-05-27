@@ -21,6 +21,84 @@
         "clientSatisfaction": "Müşteri memnuniyeti"
     },
 
+    "machineParts":{
+        "grain":"Tahıl örnekleyici",
+        "probe":"Incelemek/bulmak",
+        "wheat":"Buğday",
+        "electric":"Elektronik",
+        "textile":"Tekstil",
+        "weightMachine":"Elektronik Ağırlık Makinası",
+        "bag":"Pamuklu Taşıma Çantası",
+        "electronics":"Elektronik",
+        "machinePart":"MSB GAB-310"
+
+    },
+
+    "publicReview":{
+        "connectMsg":"Bizimle bağlantı kurmak ",
+        "update":"daha fazla güncelleme için",
+        "review":"",
+        "name":"",
+        "designation":"",
+        "paragraph":""
+
+    },
+
+    "completed":{
+        "finihed":"",
+        "experience":"",
+        "countries":""
+
+    },
+
+    "about":{
+        "aboutUs":"",
+        "design":"Müthiş Tasarım",
+        "service":"Daha İyi Müşteri Hizmeti",
+        "durability":"Yüksek dayanıklılık",
+        "creative":"En İyi Yardımcı Takım",
+        "manufacturing":"İmalat & Montaj",
+        "speed":"Hız ve Esneklik"
+    },
+
+    "products":{
+        "model1":"MSB GAB-306 Numune Alma Sondası",
+        "model2":"Hassas Terazi",
+        "model3":"MSB GAB-300 Numune Saklama Torbası",
+        "model4":"MSB GAB-301 Şahit Numune Mührü",
+        "model5":"MSB GAB-315 Nilemalitre",
+        "model6":"MSB GAB-310 Masaüstü Numune Bölücü",
+        "model7":"MSB GAB-300 Hektolitre"
+    },
+
+    "productDescription":{
+        "product1":"MSB MARKA GAB-306 MODELDİR. Cihaz, güçlü vakum motoru ile mısır, fasulye, nohut gibi ağır ürünlerin yanı sıra buğday, arpa, çeltik, çavdar, yulaf gibi tahılları pnömatik (vakumlu) olarak laboratuvarda 9 ila 12 saniyede nakledebilmektedir. veya örnek oda. numuneyi toplama kabında toplar. Üzerinde şeffaf pencere bulunan numune toplama kabı ile numune miktarı takip edilebilir, istenirse numune miktarı ayarlanabilir. Numune kabı siklon yapıda olmadığı için filtresi yoktur. Bu nedenle sık filtre değişimi gerektirmez. Güçlü ve ağır gövdesinin salınım miktarı 4 adet bayrak direği sayesinde büyük ölçüde azaltılmıştır. Cihazın numune alma kolu (bom) iç ve dış bum olmak üzere iki parçadan oluşmaktadır, istenirse 3 boma kadar uzatılabilmektedir. İç bomu dış bomdan hidrolik olarak çıkararak, örnekleme mesafesi büyük ölçüde artar. Böylece cihaz sağda ve solda 5,5 metre olmak üzere toplamda 11 metrelik bir alanı tarayabiliyor. Böylece cihazın araçlara çok yakın mesafede monte edilmesi gerekliliği ortadan kalkar. Ayrıca uzun tır ve çekicilerde dahi aracı hareket ettirmeden rahatlıkla numune alınabilmektedir. Prob uzunluğu 2,5 m. Örnekleme probu, toplam 240 derece olmak üzere 120 derece sağa ve 120 derece sola hareket edebilir. Joystick sayesinde hem kontrol odasından hem de araç yanından kontrol edilebilmektedir. Cihaz, joystick ile tüm hareketleri kolaylıkla gerçekleştirebilmektedir. Cihaz sağa, sola, yukarı, aşağı, ileri ve geri hareketlerin tamamını elektrik motorları ile değil çok daha güçlü, hızlı, sessiz ve uzun ömürlü hidrolik sistem ile yaptığı için kullanımı kolaydır. Cihazın dış ölçüleri 75x75x400 cm'dir. Cihazın net ağırlığı 530 kg'dır. Kullanım hataları hariç 2 yıl garanti ve 10 yıl yedek parça temin garantisi bulunmaktadır.",
+        "product2":"0.01 hassasiyete sahiptir. Çok farklı hassasiyet ve kapasiteye sahip kantarlarımız başta gıda, tahıl ve yem sektörü olmak üzere birçok sektör için kullanılmaktadır. Un fabrikalarında glüten, tortu, indeks ve genel tartım için sıklıkla kullanılmaktadır. Kullanım hataları hariç 2 yıl garanti ve 10 yıl yedek parça temin garantisi bulunmaktadır.",
+        "product3":"Ruhsatlı depolarda şahit numuneyi saklamak için kullanılan 30 cm boyunda 15 cm eninde çantadır. Şahit numunenin ıslanmaması için tamamen kapşonlu kumaştan üretilmiştir. Ortalama 3 kg buğday ve mısır alır. Her pakette 25 adet bulunmaktadır.",
+        "product4":"Ruhsatlı depolarda şahit numunelerin numaralandırılması zorunludur. Ürün sahibine kapatması için verilen bir kod gibi kullandıkça kullanılan bir üründür. Paketi de 1000 adet olarak paketlenmiştir.",
+        "product5":"Tanelerin ağırlığını ve yoğunluğunu ölçmek için kullanılır. Cihaz; buğday, pirinç, mısır, mercimek ve benzeri tahıllarda nilemalitre ölçmek için kullanılır. Buğday Nilemalitresi Testin amacı un verimini tahmin etmektir. buğdayın nilemalitresi arttığında un verimi de artar. nilemliter değeri: Tanenin şekli, yoğunluğu, boyutu ve tekdüzeliği buna göre değişir. ölçü kabı, dolum kabı, bıçak ve dijital terazi 4 parçadan oluşmaktadır. TSE'ye uygun sert pirinç ve krom kaplı bakır, paslanmaz çelik ve alüminyumdan imal edilmiştir. Cihazımız ISO 7971-3 standardına uygundur. uygun. Portatiftir ve kolayca taşınabilir. cihaz Bıçak paslanmaz çelikten yapılmıştır. dijital terazi ile uzun ayar ve tartım gerektirmez. Pratiktir, sonuçları bellidir. 2 yıl kullanım hataları hariç, 10 yıl yedek parça garantisi.",
+        "product6":"Cihaz tarafından analizi yapılacak ürün homojen bir şekilde iki eşit parçaya bölünür. parçalara ayrılmasını sağlar. Analiz edilecek numune cihazın üst kısmındadır. Hazneye boşaltılan dolum kabına konur. Burada bulunan ayrı bölümlerden geçmek Numune iyice karıştırılır ve iki kısma ayrılır. ikiye bölünmüş numuneler ayrı çekmecelerde toplanır. Bu numunelerden yapılan paralel (çift) analizlerde çok yakın sonuçlar alınması sağlanmaktadır. Cihazın tüm parçaları paslanmaz malzemeden imal edilmiştir. Ömür boyu paslanmazlık garantisine sahiptir. Kullanımı kolay, ergonomiktir. Arızalar hariç 2 yıl kullanım garantisi, 10 yıl yedek parça garantisi vardır.",
+        "product7":"Tanelerin yoğunluğunu ölçmek için kullanılır. Cihaz; buğday, arpa, mısır ve benzeri tahıllarda hektolitre ölçümü için kullanılır. Buğdayda hektolitre testinin amacı un verimini belirlemektir. tahmin etmektir. Buğdayın hektolitresi arttığında un verimi de artar. artan. Hektolitre değeri: Tane şekli, yoğunluğu, büyüklüğü ve tekdüzeliği değişir. Ölçüm kabı, dolum kabı, şamandıra, bıçak ve dijital terazi. 5 bölümden oluşmaktadır. TSE'ye uygun ekstrüde pirinç malzemeden üretilmiştir. Cihazımız ISO 7071-3 standartlarına uygundur. Tüm parçalar birbirinden ayrılabilir, taşınabilir, kolayca taşınabilir. Cihazın bıçağı paslanmaz çelikten imal edilmiştir. Dijital teraziye sahip olduğu için uzun süre ayarlanabilir ve tartım gerektirmez. Kullanım hataları hariç 2 yıl Garanti ve 10 yıl yedek parça temin garantisi bulunmaktadır."
+    },
+
+    "contactUs":{
+        "contact":"Temas etmek",
+        "us":"Biz",
+        "contactDetails":"iletişim detayları",
+        "message":"Herhangi bir sorunuz varsa iletişime geçmekten çekinmeyin,",
+        "feedback":"zamanınızı ve geri bildiriminizi takdir ediyoruz",
+        "phone":"Telefon",
+        "email":"E-posta",
+        "address":"Adres",
+        "submit":"Göndermek",
+        "notification":"E-posta başarıyla gönderildi.",
+        "fullName":"Ad Soyad",
+        "phoneNumber":"Telefon Numarası",
+        "emailaddress":"E-posta adres",
+        "subject":"Ders",
+        "messageBox":"İleti..."
+    },
+
     "footer": {
         "paragraph":"Yüksek kaliteli makineler sağlamakta.",
         "quickLinks":"Hızlı Linkler",

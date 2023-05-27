@@ -74,6 +74,10 @@ const Footer = () => {
                   +90-542 681 78 67
                 </li>
                 <li>
+                  <i className="fa fa-phone" aria-hidden="true" />
+                  +90-532 287 21 85
+                </li>
+                <li>
                   <a href="https://mail.google.com/mail/?view=cm&fs=1&to=msbteknikelektrik@gmail.com">
                     <i className="fa fa-envelope" aria-hidden="true" />
                   </a>

@@ -6,7 +6,7 @@ import Slider from "./slider/Slider";
 import { useTranslation } from "react-i18next";
 
 const Section = () => {
-  const { t ,i18n} = useTranslation();
+  const { t, i18n } = useTranslation();
 
   return (
     <>
@@ -63,91 +63,6 @@ const Section = () => {
             >
               <div className="elementor-inner">
                 <div className="elementor-section-wrap">
-                  {/* <section
-                    className="elementor-section elementor-top-section elementor-element elementor-element-0e27adf elementor-section-height-full elementor-section-items-stretch elementor-section-content-middle elementor-section-boxed elementor-section-height-default"
-                    data-id="0e27adf"
-                    data-element_type="section"
-                  >
-                    <div className="elementor-container elementor-column-gap-no">
-                      <div className="elementor-row">
-                      
-                        <div
-                          className="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a1e5991"
-                          data-id="a1e5991"
-                          data-element_type="column"
-                        >
-                          <div className="elementor-column-wrap elementor-element-populated">
-                            <div className="elementor-widget-wrap">
-                              <div
-                                data-parallax="[]"
-                                className="elementor-element elementor-element-584176c elementor-widget__width-auto elementor-absolute elementor-widget elementor-widget-afracode-shape"
-                                data-id="584176c"
-                                data-element_type="widget"
-                                data-settings='{"_position":"absolute","afc_transform":"none","afc_animation_name":"none"}'
-                                data-widget_type="afracode-shape.default"
-                              >
-                                
-                                <div className="elementor-widget-container">
-                                  <div className="afc-shape">
-                                    <div className="afc-shape__element afc-shape__element--circle" />
-                                  </div>
-                                </div>
-                              </div>
-                              
-                              
-                              <div
-                                data-parallax='{"scale":1.5}'
-                                className="elementor-element elementor-element-2bb14c2 elementor-widget__width-auto elementor-absolute elementor-widget elementor-widget-afracode-shape"
-                                data-id="2bb14c2"
-                                data-element_type="widget"
-                                data-settings='{"_position":"absolute","afc_transform":"none","afc_animation_name":"none"}'
-                                data-widget_type="afracode-shape.default"
-                                style={{
-                                  "-webkit-transform":
-                                    "translate3d(0px, 0px, 0px)                                rotateX(0deg) rotateY(0deg) rotateZ(0deg)                                scaleX(1.029) scaleY(1.029) scaleZ(1.029)",
-                                  "-ms-transform":
-                                    "translate3d(0px, 0px, 0px)                                rotateX(0deg) rotateY(0deg) rotateZ(0deg)                                scaleX(1.029) scaleY(1.029) scaleZ(1.029)",
-                                  transform:
-                                    "translate3d(0px, 0px, 0px)                                rotateX(0deg) rotateY(0deg) rotateZ(0deg)                                scaleX(1.029) scaleY(1.029) scaleZ(1.029)",
-                                }}
-                              >
-                                
-                                <div className="elementor-widget-container">
-                                  <div className="afc-shape">
-                                    <div className="afc-shape__element afc-shape__element--circle" />
-                                  </div>
-                                </div>
-                              </div>
-      
-
-                              <div
-                                data-parallax='{"scale":1.5}'
-                                className="elementor-element elementor-element-20988ad elementor-widget__width-auto elementor-absolute elementor-widget elementor-widget-afracode-shape"
-                                data-id="20988ad"
-                                data-element_type="widget"
-                                data-settings='{"_position":"absolute","afc_transform":"none","afc_animation_name":"none"}'
-                                data-widget_type="afracode-shape.default"
-                                style={{
-                                  "-webkit-transform":
-                                    "translate3d(0px, 0px, 0px)                                rotateX(0deg) rotateY(0deg) rotateZ(0deg)                                scaleX(1.029) scaleY(1.029) scaleZ(1.029)",
-                                  "-ms-transform":
-                                    "translate3d(0px, 0px, 0px)                                rotateX(0deg) rotateY(0deg) rotateZ(0deg)                                scaleX(1.029) scaleY(1.029) scaleZ(1.029)",
-                                  transform:
-                                    "translate3d(0px, 0px, 0px)                                rotateX(0deg) rotateY(0deg) rotateZ(0deg)                                scaleX(1.029) scaleY(1.029) scaleZ(1.029)",
-                                }}
-                              >
-                                <div className="elementor-widget-container">
-                                  <div className="afc-shape">
-                                    <div className="afc-shape__element afc-shape__element--circle" />
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </section> */}
                   <section
                     className="elementor-section elementor-top-section elementor-element elementor-element-281f8cb elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                     data-id="281f8cb"
@@ -194,7 +109,7 @@ const Section = () => {
                                               <div>
                                                 <div className="afc-creative-tag afc-creative-tag--style-1">
                                                   <span className="afc-creative-tag__text">
-                                                  {t('details.quality')}
+                                                    {t("details.quality")}
                                                   </span>
                                                 </div>
                                               </div>
@@ -218,17 +133,16 @@ const Section = () => {
                                                 <div>
                                                   <h2 className="afc-heading__title default">
                                                     <span className="afc-heading__title__text afc-heading__title__main">
-                                                    {t('details.review')}
+                                                      {t("details.review")}
                                                       {/* <br />
                                                       Successfully */}
                                                     </span>
                                                   </h2>
                                                   <p className="afc-heading__subtitle">
-                                                    Lorem ipsum dolor sit amet,
-                                                    consectetur adipiscing elit.
-                                                    Ut elit tellus, luctus nec
-                                                    ullamcorper mattis, pulvinar
-                                                    dapibus leo.
+                                                    we are expert in providing
+                                                    unique and good solution in
+                                                    this area and also wwe have
+                                                    are satufying our customers
                                                   </p>
                                                 </div>
                                               </div>
@@ -280,7 +194,9 @@ const Section = () => {
                                                             20+
                                                           </h4>
                                                           <p className="afc-infobox-img__description">
-                                                          {t('details.experience')}
+                                                            {t(
+                                                              "details.experience"
+                                                            )}
                                                           </p>
                                                         </div>
                                                       </div>
@@ -293,7 +209,9 @@ const Section = () => {
                                                             507+
                                                           </h4>
                                                           <p className="afc-infobox-img__description">
-                                                          {t('details.deliveredProjects')}
+                                                            {t(
+                                                              "details.deliveredProjects"
+                                                            )}
                                                           </p>
                                                         </div>
                                                       </div>
@@ -306,7 +224,9 @@ const Section = () => {
                                                             100%
                                                           </h4>
                                                           <p className="afc-infobox-img__description">
-                                                          {t('details.clientSatisfaction')}
+                                                            {t(
+                                                              "details.clientSatisfaction"
+                                                            )}
                                                           </p>
                                                         </div>
                                                       </div>
@@ -363,11 +283,11 @@ const Section = () => {
                                                             </div>
                                                             <div className="afc-portfolio-item__content">
                                                               <h5 className="afc-portfolio-item__title">
-                                                                Grain Sampler
+                                                              {t("machineParts.grain")}
                                                               </h5>
                                                               <div className="afc-categories afc-categories--style-1">
                                                                 <span className="afc-portfolio-item__category afc-categories__item">
-                                                                  Probe
+                                                                  {t("machineParts.probe")}
                                                                 </span>
                                                               </div>
                                                             </div>
@@ -395,11 +315,11 @@ const Section = () => {
                                                             </div>
                                                             <div className="afc-portfolio-item__content">
                                                               <h5 className="afc-portfolio-item__title">
-                                                                Grain Sampler
+                                                              {t("machineParts.grain")}
                                                               </h5>
                                                               <div className="afc-categories afc-categories--style-1">
                                                                 <span className="afc-portfolio-item__category afc-categories__item">
-                                                                  Wheat
+                                                                  {t("machineParts.wheat")}
                                                                 </span>
                                                               </div>
                                                             </div>
@@ -427,12 +347,11 @@ const Section = () => {
                                                             </div>
                                                             <div className="afc-portfolio-item__content">
                                                               <h5 className="afc-portfolio-item__title">
-                                                                Electronic
-                                                                Weight Machine
+                                                              {t("machineParts.weightMachine")}
                                                               </h5>
                                                               <div className="afc-categories afc-categories--style-1">
                                                                 <span className="afc-portfolio-item__category afc-categories__item">
-                                                                  ELEctric
+                                                                  {t("machineParts.electric")}
                                                                 </span>
                                                               </div>
                                                             </div>
@@ -460,11 +379,11 @@ const Section = () => {
                                                             </div>
                                                             <div className="afc-portfolio-item__content">
                                                               <h5 className="afc-portfolio-item__title">
-                                                                Cotton Carry Bag
+                                                              {t("machineParts.bag")}
                                                               </h5>
                                                               <div className="afc-categories afc-categories--style-1">
                                                                 <span className="afc-portfolio-item__category afc-categories__item">
-                                                                  Textile
+                                                                  {t("machineParts.textile")}
                                                                 </span>
                                                               </div>
                                                             </div>
@@ -492,12 +411,13 @@ const Section = () => {
                                                             </div>
                                                             <div className="afc-portfolio-item__content">
                                                               <h5 className="afc-portfolio-item__title">
-                                                                Consumer
-                                                                Electronics
+                                                                {t("machineParts.electronics")}
                                                               </h5>
                                                               <div className="afc-categories afc-categories--style-1">
                                                                 <span className="afc-portfolio-item__category afc-categories__item">
-                                                                  Electronic
+                                                                  katkı
+                                                                  karıştırıcı
+                                                                  makinesi
                                                                 </span>
                                                               </div>
                                                             </div>
@@ -525,11 +445,11 @@ const Section = () => {
                                                             </div>
                                                             <div className="afc-portfolio-item__content">
                                                               <h5 className="afc-portfolio-item__title">
-                                                                MSB GAB-310
+                                                                {t("machineParts.machinePart")}
                                                               </h5>
                                                               <div className="afc-categories afc-categories--style-1">
                                                                 <span className="afc-portfolio-item__category afc-categories__item">
-                                                                  Grain Sampler
+                                                                  {t("machineParts.grain")}
                                                                 </span>
                                                               </div>
                                                             </div>
@@ -585,10 +505,10 @@ const Section = () => {
                                                 <div>
                                                   <h2 className="afc-heading__title default">
                                                     <span className="afc-heading__title__text afc-heading__title__main">
-                                                      Getting connected with us
+                                                    {t("publicReview.connectMsg")}
                                                       &amp;
                                                       <br />
-                                                      for the update.
+                                                      {t("publicReview.update")}
                                                     </span>
                                                   </h2>
                                                 </div>
@@ -1306,7 +1226,7 @@ const Section = () => {
                                                   <h2 className="afc-heading__title default">
                                                     <span className="afc-heading__title__text afc-heading__title__main">
                                                       {/* Special Quotes from <br /> */}
-                                                      {t('nav.services')}
+                                                      {t("nav.services")}
                                                     </span>
                                                   </h2>
                                                 </div>
@@ -1380,7 +1300,7 @@ const Section = () => {
                                                 </div>
                                                 <div className="afc-infobox-img__body">
                                                   <h4 className="afc-infobox-img__title">
-                                                  {t('nav.mechanical')}
+                                                    {t("nav.mechanical")}
                                                   </h4>
                                                   <p className="afc-infobox-img__description">
                                                     Lorem ipsum dolor sit amet
@@ -1429,7 +1349,7 @@ const Section = () => {
                                                 </div>
                                                 <div className="afc-infobox-img__body">
                                                   <h4 className="afc-infobox-img__title">
-                                                  {t('nav.electrical')}
+                                                    {t("nav.electrical")}
                                                   </h4>
                                                   <p className="afc-infobox-img__description">
                                                     Lorem ipsum dolor sit amet
@@ -1478,7 +1398,7 @@ const Section = () => {
                                                 </div>
                                                 <div className="afc-infobox-img__body">
                                                   <h4 className="afc-infobox-img__title">
-                                                  {t('nav.transportation')}
+                                                    {t("nav.transportation")}
                                                   </h4>
                                                   <p className="afc-infobox-img__description">
                                                     Lorem ipsum dolor sit amet

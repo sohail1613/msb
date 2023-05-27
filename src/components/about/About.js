@@ -1,8 +1,10 @@
 import React from "react";
 import "./About.css";
 import Probe from "../../assets/complete_probe.png";
+import { useTranslation } from "react-i18next";
 
 const About = () => {
+  const { t, i18n } = useTranslation();
   return (
     <>
       <section className="about" id="about">
@@ -35,37 +37,37 @@ const About = () => {
                 <div className="col-md-6">
                   <h4>
                     <i className="far fa-star" />
-                    Awesome Design
+                    {t("about.design")}
                   </h4>
                 </div>
                 <div className="col-md-6">
                   <h4>
                     <i className="far fa-star" />
-                    Creative Design
+                    {t("about.creative")}
                   </h4>
                 </div>
                 <div className="col-md-6">
                   <h4>
                     <i className="far fa-star" />
-                    Better Client Service
+                    {t("about.service")}
                   </h4>
                 </div>
                 <div className="col-md-6">
                   <h4>
                     <i className="far fa-star" />
-                    Manufacturing &amp; Installation
+                    {t("about.manufacturing")} 
                   </h4>
                 </div>
                 <div className="col-md-6">
                   <h4>
                     <i className="far fa-star" />
-                    High Durability
+                    {t("about.durability")}
                   </h4>
                 </div>
                 <div className="col-md-6">
                   <h4>
                     <i className="far fa-star" />
-                    Speed And Flexibility
+                    {t("about.speed")}
                   </h4>
                 </div>
               </div>

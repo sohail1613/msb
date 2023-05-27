@@ -1,5 +1,7 @@
 import React, { Suspense, useState } from "react";
 import "./App.css";
+import i18n from "i18next";
+
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import Home from "./components/home/Home";
@@ -23,7 +25,13 @@ const languages = [
 
 function App() {
   const { t } = useTranslation();
-  const [language, setLanguage] = useState("tr");
+  const [language, setLanguage] = useState("en");
+
+  const handleLanguageChange = lang => {
+    setLanguage(lang);
+    i18n.changeLanguage(lang);
+  };
+
 
   // this function use query to change language
   // const handleLanguage = (e) => {

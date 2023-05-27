@@ -2,9 +2,8 @@ import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import resources from './languages';
 
-export const AVAILABLE_LANGUAGES = ['en', 'tr'];
-
-export const DEFAULT_LANGUAGE = 'tr';
+ const AVAILABLE_LANGUAGES = ['en', 'tr'];
+ const DEFAULT_LANGUAGE = 'tr';
 
 i18n.use(initReactI18next).init({
   lng: DEFAULT_LANGUAGE,
@@ -20,4 +19,4 @@ i18n.use(initReactI18next).init({
   },
 });
 
-export default i18n;
+export default i18n ;
