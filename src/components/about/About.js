@@ -11,14 +11,13 @@ const About = () => {
         <div className="container">
           <div className="heading text-center">
             <h2>
-              About
-              <span>Us</span>
+            {t("nav.aboutus")}
+              <span></span>
             </h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor
+            {t("about.aboutUs")}
               <br />
-              incididunt ut labore et dolore magna aliqua.
+              {t("about.sentence")}
             </p>
           </div>
           <div className="row">
@@ -26,12 +25,9 @@ const About = () => {
               <img src={Probe} alt="about" className="img-fluid" width="100%" />
             </div>
             <div className="col-lg-6">
-              <h3>Lorem ipsum dolor sit amet, consectetur </h3>
+              <h3>{t("about.aboutUs")}</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
+                {t("about.sentence")}
               </p>
               <div className="row">
                 <div className="col-md-6">

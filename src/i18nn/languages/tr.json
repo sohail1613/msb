@@ -19,7 +19,10 @@
         "quality": "Üst kalite",
         "experience": "Deneyim",
         "deliveredProjects": "Teslim Edilen Projeler",
-        "clientSatisfaction": "Müşteri memnuniyeti"
+        "clientSatisfaction": "Müşteri memnuniyeti",
+        "experiences":"MSB Makina Elektrik Olarak 18 yıllık tecrübemizi ve deneyimlerimizi müşterilerimize sunmayı amaçlıyoruz.",
+        "countries":"Ülkeler",
+        "finished":"Biten Projeler"
     },
 
     "machineParts":{
@@ -38,11 +41,30 @@
     "publicReview":{
         "connectMsg":"Bizimle bağlantı kurmak ",
         "update":"daha fazla güncelleme için",
-        "review":"",
-        "name":"",
-        "designation":"",
-        "paragraph":""
-
+        "review1":"numune alma sondamizdaki arizayi en kisa surede arizasi giderildi isinden anlayan bir firma tecrubesi yaptigi isten belli oluyor tesekkurler ",
+        "review2":"numune alma islemlerinde bazi urunleri almak da zorlaniyorduk ama msb makina personeli bizim sikintimizi giderdi",
+        "review3":"numune alma sondasinda emis problemlerimiz firma tarafindan giderildi",
+        "review4":"cihazimizin surekli blower arizasi msb makina tarafindan giderildi",
+        "name":"orhan erten",
+        "name1":"gazi antep ticaret borsasi",
+        "name2":"hayrullah tas",
+        "name3":"matli yem",
+        "name4":"ali osman cemerez",
+        "name5":"mustafa akkoc",
+        "name6":"recep aslan",
+        "name7":"cankiri un",
+        "designation1":"",
+        "designation2":"",
+        "designation3":"",
+        "designation4":"",
+        "designation5":"",
+        "designation6":"",
+        "designation7":"",
+        "designation8":"",
+        "paragraph":"hobi bahcemizin elektrik tesisati istedigim gibi personel tarafindan yapildi gelen arkadaslardan cok memnun kaldim tesekkur ederim",
+        "paragraph1":"villamizin elektrik tesisati msb elektrik tarafindan tasarlanip en kisa surede teslim edildi",
+        "paragraph2":"nakliyemiz msb nakliye tarafindan guvenli bir sekilde teslim edildi yapmis oldugu hizmetlerden tesekkur ederiz ",
+        "paragraph3":"surekli calistigimiz msb nakliye firmasindan cok memnunuz bu gune kadar sikintisiz calisiyoruz tesekkur ederiz"
     },
 
     "completed":{
@@ -52,8 +74,15 @@
 
     },
 
+    "service":{
+        "electric":"Bina eletrik tesisati elektrik pano tasarimi guvenlik sistemleri",
+        "transportation":"yurt ici sehirler arasi kara yolu yuk tasimaciligi",
+        "mechanic":"hububat analiz cihazlari un katki ve sarf malzemeleri"
+    },
+
     "about":{
-        "aboutUs":"",
+        "aboutUs":"MSB Makina Elektrik Olarak 18 yıllık tecrübemizi ve deneyimlerimizi müşterilerimize sunmayı amaçlıyoruz.",
+        "sentence":"Taahhüt ettiğimiz işi zamanında teslim etme prensibimiz. Arge'ye açık hizmet anlayışı.Tamamen çözüm odaklı çalışmak.",
         "design":"Müthiş Tasarım",
         "service":"Daha İyi Müşteri Hizmeti",
         "durability":"Yüksek dayanıklılık",
@@ -83,8 +112,8 @@
     },
 
     "contactUs":{
-        "contact":"Temas etmek",
-        "us":"Biz",
+        "contact":"iletişim",
+        "us":" ",
         "contactDetails":"iletişim detayları",
         "message":"Herhangi bir sorunuz varsa iletişime geçmekten çekinmeyin,",
         "feedback":"zamanınızı ve geri bildiriminizi takdir ediyoruz",
@@ -113,8 +142,8 @@
         "mechanical": "Mekanik",
         "electrical": "Elektrik",
         "transportation": "Nakliye",
-        "whatsapp":"Hızlı Soruşturma",
-        "instagram":"Instagram'da takip et",
+        "whatsapp":"What'sApp",
+        "instagram":"Instagram",
 
         "copyright":"Telif hakkı"
     }

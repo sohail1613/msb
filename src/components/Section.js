@@ -139,10 +139,7 @@ const Section = () => {
                                                     </span>
                                                   </h2>
                                                   <p className="afc-heading__subtitle">
-                                                    we are expert in providing
-                                                    unique and good solution in
-                                                    this area and also wwe have
-                                                    are satufying our customers
+                                                    {t("details.experiences")}
                                                   </p>
                                                 </div>
                                               </div>
@@ -191,7 +188,7 @@ const Section = () => {
                                                         <div className="afc-infobox-img__head" />
                                                         <div className="afc-infobox-img__body">
                                                           <h4 className="afc-infobox-img__title">
-                                                            20+
+                                                            18+
                                                           </h4>
                                                           <p className="afc-infobox-img__description">
                                                             {t(
@@ -605,18 +602,7 @@ const Section = () => {
                                                             <div className="afc-testimonial__inner__description">
                                                               <blockquote className="afc-blockquote">
                                                                 <p>
-                                                                  "You've saved
-                                                                  our business!
-                                                                  I can't say
-                                                                  enough about
-                                                                  you. We were
-                                                                  treated like
-                                                                  royalt="image"y.
-                                                                  We can't
-                                                                  understand how
-                                                                  we've been
-                                                                  living without
-                                                                  you."
+                                                                numune alma sondamizdaki arizayi en kisa surede arizasi giderildi isinden anlayan bir firma tecrubesi yaptigi isten belli oluyor tesekkurler 
                                                                 </p>
                                                               </blockquote>
                                                             </div>
@@ -624,7 +610,7 @@ const Section = () => {
                                                               <div className="d-flex">
                                                                 <div>
                                                                   <h5 className="text-sm font-weight-bold">
-                                                                    Miranda Fox
+                                                                    Ali uzman
                                                                   </h5>
                                                                   <h6 className="text-sm">
                                                                     CEO of MSB
@@ -679,27 +665,16 @@ const Section = () => {
                                                             </div>
                                                             <div className="afc-testimonial__inner__description">
                                                               <blockquote className="afc-blockquote">
-                                                                <p>
-                                                                  "You've saved
-                                                                  our business!
-                                                                  I can't say
-                                                                  enough about
-                                                                  you. We were
-                                                                  treated like
-                                                                  royalt="image"y.
-                                                                  We can't
-                                                                  understand how
-                                                                  we've been
-                                                                  living without
-                                                                  you."
-                                                                </p>
+                                                              <p>
+                                                              numune alma sondamizdaki arizayi en kisa surede arizasi giderildi isinden anlayan bir firma tecrubesi yaptigi isten belli oluyor tesekkurler 
+                                                              </p>
                                                               </blockquote>
                                                             </div>
                                                             <div className="afc-testimonial__inner__author">
                                                               <div className="d-flex">
                                                                 <div>
                                                                   <h5 className="text-sm font-weight-bold">
-                                                                    Sohail
+                                                                    Ali Uzman 
                                                                   </h5>
                                                                   <h6 className="text-sm">
                                                                     Manager
@@ -754,18 +729,7 @@ const Section = () => {
                                                             <div className="afc-testimonial__inner__description">
                                                               <blockquote className="afc-blockquote">
                                                                 <p>
-                                                                  "You've saved
-                                                                  our business!
-                                                                  I can't say
-                                                                  enough about
-                                                                  you. We were
-                                                                  treated like
-                                                                  royalt="image"y.
-                                                                  We can't
-                                                                  understand how
-                                                                  we've been
-                                                                  living without
-                                                                  you."
+                                                                  "cihazimizin surekli blower arizasi msb makina tarafindan giderildi."
                                                                 </p>
                                                               </blockquote>
                                                             </div>
@@ -773,11 +737,10 @@ const Section = () => {
                                                               <div className="d-flex">
                                                                 <div>
                                                                   <h5 className="text-sm font-weight-bold">
-                                                                    Alex Smith
+                                                                  orhan erten
                                                                   </h5>
                                                                   <h6 className="text-sm">
-                                                                    CEO of
-                                                                    Tesla-Bikes
+                                                                    
                                                                   </h6>
                                                                 </div>
                                                               </div>
@@ -1303,9 +1266,7 @@ const Section = () => {
                                                     {t("nav.mechanical")}
                                                   </h4>
                                                   <p className="afc-infobox-img__description">
-                                                    Lorem ipsum dolor sit amet
-                                                    Consectetur adipisicing
-                                                    elit.
+                                                    {t("service.mechanic")}
                                                   </p>
                                                 </div>
                                               </div>
@@ -1352,9 +1313,7 @@ const Section = () => {
                                                     {t("nav.electrical")}
                                                   </h4>
                                                   <p className="afc-infobox-img__description">
-                                                    Lorem ipsum dolor sit amet
-                                                    Consectetur adipisicing
-                                                    elit.
+                                                    {t("service.electric")}
                                                   </p>
                                                 </div>
                                               </div>
@@ -1401,9 +1360,7 @@ const Section = () => {
                                                     {t("nav.transportation")}
                                                   </h4>
                                                   <p className="afc-infobox-img__description">
-                                                    Lorem ipsum dolor sit amet
-                                                    Consectetur adipisicing
-                                                    elit.
+                                                    {t("service.transportation")}
                                                   </p>
                                                 </div>
                                               </div>
@@ -1469,9 +1426,9 @@ const Section = () => {
                                                 <div>
                                                   <h2 className="afc-heading__title default">
                                                     <span className="afc-heading__title__text afc-heading__title__main">
-                                                      Completed 507+ Projects
+                                                      {t("details.review")}
                                                       <br />
-                                                      Successfully
+                                                      
                                                     </span>
                                                   </h2>
                                                 </div>
@@ -1519,7 +1476,7 @@ const Section = () => {
                                                     507+
                                                   </h4>
                                                   <p className="afc-infobox-img__description">
-                                                    Finished Projects
+                                                    {t("details.finished")}
                                                   </p>
                                                 </div>
                                               </div>
@@ -1553,10 +1510,10 @@ const Section = () => {
                                                 <div className="afc-infobox-img__head" />
                                                 <div className="afc-infobox-img__body">
                                                   <h4 className="afc-infobox-img__title">
-                                                    20+
+                                                    18+
                                                   </h4>
                                                   <p className="afc-infobox-img__description">
-                                                    Years of Experience
+                                                    {t("details.experience")}
                                                   </p>
                                                 </div>
                                               </div>
@@ -1590,10 +1547,10 @@ const Section = () => {
                                                 <div className="afc-infobox-img__head" />
                                                 <div className="afc-infobox-img__body">
                                                   <h4 className="afc-infobox-img__title">
-                                                    1000
+                                                    10
                                                   </h4>
                                                   <p className="afc-infobox-img__description">
-                                                    Across Turkey
+                                                    {t("details.countries")}
                                                   </p>
                                                 </div>
                                               </div>
