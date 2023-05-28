@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import "./Header.css";
 import Logo from "../assets/logos.avif";
@@ -11,17 +11,25 @@ const languages = [
   { value: "en", text: "English" },
 ];
 
-const Header = (handleLanguage) => {
+const Header = () => {
   const { t, i18n } = useTranslation();
 
   const { a } = useTranslation();
   const [language, setLanguage] = useState("en");
 
-  const handleLanguageChange = (lang) => {
-    setLanguage(lang);
+  const handleLanguageChange = () => {
+    let lang = localStorage.getItem('lang') === 'en' ? 'tr' : 'en'
     i18n.changeLanguage(lang);
-    localStorage.setItem(lang)
-  };
+    localStorage.setItem('lang',lang)
+    };
+
+    useEffect(() => {
+      const storedLanguage = localStorage.getItem('lang');
+      if (storedLanguage) {
+        setLanguage(storedLanguage);
+        i18n.changeLanguage(storedLanguage);
+      }
+    }, []);
 
   return (
     <>
@@ -133,7 +141,7 @@ const Header = (handleLanguage) => {
                       type="button"
                     >
                       <AiOutlineGlobal
-                        onClick={() => handleLanguageChange("en", "tr")}
+                        onClick={() => handleLanguageChange()}
                       />
                     </button>
                   </li>
