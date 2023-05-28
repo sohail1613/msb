@@ -137,12 +137,14 @@ const Header = () => {
                 <ul>
                   <li>
                     <button
-                      className="afc-button afc-button--icon "
+                      className="afc-button afc-button--icon  text-dark font-weight-bold"
                       type="button"
                     >
+                    
                       <AiOutlineGlobal
                         onClick={() => handleLanguageChange()}
                       />
+                      {t("nav.langauge")}
                     </button>
                   </li>
                 </ul>
