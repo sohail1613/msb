@@ -33,42 +33,9 @@ function App() {
   };
 
 
-  // this function use query to change language
-  // const handleLanguage = (e) => {
-  //   setLanguage(e.target.value);
-  //   let local = "http://localhost:3000";
-  //   window.location.replace(local + "?lang=" + e.target.value);
-  // };
-
   return (
     <>
-      {/* <div className="App">
-        <h1>{t("welcome")}</h1>
-        <label>{t("choose")}</label>
-        <select value={language} onChange={handleLanguage}>
-          {languages.map((item) => {
-            return (
-              <>
-                <Header />
-                <Router>
-                  <Routes>
-                    <Route path="" element={<Home />} />
-                    <Route path="/about" element={<About />} />
-                    <Route path="/products" element={<AllProducts />} />
-                    <Route path="/services" element={<Services />} />
-                    <Route path="/annoucement" element={<Announcement />} />
-                    <Route path="/contact" element={<Contact />} />
-                  </Routes>
-                </Router>
-                <Footer />
-                <option key={item.value} value={item.value}>
-                  {item.text}
-                </option>
-              </>
-            );
-          })}
-        </select>
-      </div> */}
+     
       <Suspense fallback={<div>Loading....</div>}>
 
     
