@@ -27,33 +27,30 @@ function App() {
   const { t } = useTranslation();
   const [language, setLanguage] = useState("en");
 
-  const handleLanguageChange = lang => {
+  const handleLanguageChange = (lang) => {
     setLanguage(lang);
     i18n.changeLanguage(lang);
   };
 
-
   return (
     <>
-     
       <Suspense fallback={<div>Loading....</div>}>
-
-    
-      <Header />
-      <Router>
-        <Routes>
-          <Route path="" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/products" element={<AllProducts />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/makina" element={<Makina />} />
-          <Route path="/electric" element={<Electric />} />
-          <Route path="/nakliya" element={<Nakliye />} />
-          <Route path="/annoucement" element={<Announcement />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </Router>
-      <Footer />
+        <Header />
+        <Router>
+          <Routes>
+            <Route index element={<Home />} />
+            {/* <Route path="/" element={<Home />} />*/}
+            <Route path="/about" element={<About />} />
+            <Route path="/products" element={<AllProducts />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/makina" element={<Makina />} />
+            <Route path="/electric" element={<Electric />} />
+            <Route path="/nakliya" element={<Nakliye />} />
+            <Route path="/annoucement" element={<Announcement />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </Router>
+        <Footer />
       </Suspense>
     </>
   );

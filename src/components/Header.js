@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import "./Header.css";
 import Logo from "../assets/logos.avif";
+// import { ReactComponent as MSBLogo }  from "../icons/msb_logo.pdf"
+import MSBLogo from "../icons/msb_logo.png"
 import { AiOutlineGlobal } from "react-icons/ai";
 
 // Contains the value and text for the options
@@ -48,7 +50,7 @@ const Header = () => {
                 </button>
                 <a href="/">
                   {/* <span>Makina</span> */}
-                  <img src={Logo} style={{ width: "500px" }} />
+                  <img className="msbLogo" src={MSBLogo}  />
                 </a>
               </div>
               <nav className="afc-header__navbar__links d-none d-lg-block d-xl-block">
@@ -118,7 +120,7 @@ const Header = () => {
                         id="nav-menu-item-3453"
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-3453"
                       >
-                        <a href="http://wp.afracode.com/mitra/blog-chess-style/">
+                        <a href="#">
                           {t("nav.news")}
                         </a>
                       </li>

@@ -1,6 +1,8 @@
 import React from "react";
 import "./Footer.css";
-import Logo from "../assets/logos.avif";
+// import Logo from "../assets/logos.avif";
+import MSBLogo from "../icons/msb_logo.png"
+
 import { useTranslation } from "react-i18next";
 const Footer = () => {
   const { t, i18n } = useTranslation();
@@ -18,11 +20,11 @@ const Footer = () => {
             {/*  for company name and description */}
             <div className="footer-items">
               <a href="/">
-                <img src={Logo} alt="Logo" />
+                <img className="msbLogo" src={MSBLogo} alt="Logo" />
               </a>
               {/* <h1>MSB Makina</h1> */}
               {/* <img src={Logo}/> */}
-              <p>
+              <p className="footerDescription">
               {t('footer.paragraph')}
               </p>
             </div>

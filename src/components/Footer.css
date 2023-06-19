@@ -116,4 +116,18 @@ li i {
 	}
 }
 
+.msbLogo{
+	width: 240px !important;
+	height: 120px;
+	border-radius: 10px;
+	 
+	margin-left: -35px !important;
+	margin-top: -15px !important;
+	
+}
+.footerDescription{
+	margin-top: -10px !important;
+	margin-left: -60px !important;
+}
+
 

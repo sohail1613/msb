@@ -1,5 +1,4 @@
-import Probe from "../../assets/complete_probe.png";
-import Grain from "../../assets/probe.png";
+import "./SliderData.css"
 
 export const sliderData = [
   {

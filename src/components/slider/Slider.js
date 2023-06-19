@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 import { sliderData } from "./SliderData";
 
+
 const Slider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const sliderLenght = sliderData.length;
