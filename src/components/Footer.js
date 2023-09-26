@@ -91,7 +91,7 @@ const Footer = () => {
                   Quick Enquiry
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/msbelektrikmakina/">
+                  <a href="https://www.instagram.com/msb.makina/">
                     <i className="fa fa-instagram" aria-hidden="true" />
                   </a>
                   Follow on Instagram
