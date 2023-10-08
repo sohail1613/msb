@@ -15,3 +15,23 @@
   padding: 10px;
   margin-top: 10px;
 }
+/* Hamburger menu styles for small screens */
+@media screen and (max-width: 768px) {
+  .afc-header__navbar__links {
+    display: none; /* Hide the navigation menu */
+  }
+
+  .afc-header__navbar__icons {
+    display: block; /* Display the hamburger menu icon */
+  }
+
+  /* Show the navigation menu when the hamburger icon is clicked */
+  .afc-header__navbar__icons.open {
+    display: none;
+  }
+
+  .afc-header__navbar__links.open {
+    display: block;
+  }
+}
+

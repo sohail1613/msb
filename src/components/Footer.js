@@ -98,7 +98,7 @@ const Footer = () => {
                   {t('footer.whatsapp')}
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/msbelektrikmakina/">
+                  <a href="https://www.instagram.com/msb.makina/">
                     <i className="fa fa-instagram" aria-hidden="true" />
                   </a>
                   {t('footer.instagram')}

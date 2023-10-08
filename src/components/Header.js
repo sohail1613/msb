@@ -19,6 +19,7 @@ const Header = () => {
   const { a } = useTranslation();
   const [language, setLanguage] = useState("en");
 
+
   const handleLanguageChange = () => {
     let lang = localStorage.getItem('lang') === 'en' ? 'tr' : 'en'
     i18n.changeLanguage(lang);
@@ -106,25 +107,9 @@ const Header = () => {
                   <li
                     id="nav-menu-item-1501"
                     className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1501"
-                    data-menu-anchor
+                    data-menu-anchor  
                   >
-                    <a href="#">{t("nav.announcement")}</a>
-                    <ul className="sub-menu">
-                      <li
-                        id="nav-menu-item-3454"
-                        className="menu-item menu-item-type-post_type menu-item-object-page menu-item-3454"
-                      >
-                        <a href="#">{t("nav.newProducts")}</a>
-                      </li>
-                      <li
-                        id="nav-menu-item-3453"
-                        className="menu-item menu-item-type-post_type menu-item-object-page menu-item-3453"
-                      >
-                        <a href="#">
-                          {t("nav.news")}
-                        </a>
-                      </li>
-                    </ul>
+                    <a href="#">{t("nav.gallery")}</a>
                   </li>
                   <li
                     id="nav-menu-item-1502"

@@ -280,11 +280,15 @@ const Section = () => {
                                                             </div>
                                                             <div className="afc-portfolio-item__content">
                                                               <h5 className="afc-portfolio-item__title">
-                                                              {t("machineParts.grain")}
+                                                                {t(
+                                                                  "machineParts.grain"
+                                                                )}
                                                               </h5>
                                                               <div className="afc-categories afc-categories--style-1">
                                                                 <span className="afc-portfolio-item__category afc-categories__item">
-                                                                  {t("machineParts.probe")}
+                                                                  {t(
+                                                                    "machineParts.probe"
+                                                                  )}
                                                                 </span>
                                                               </div>
                                                             </div>
@@ -312,11 +316,15 @@ const Section = () => {
                                                             </div>
                                                             <div className="afc-portfolio-item__content">
                                                               <h5 className="afc-portfolio-item__title">
-                                                              {t("machineParts.grain")}
+                                                                {t(
+                                                                  "machineParts.grain"
+                                                                )}
                                                               </h5>
                                                               <div className="afc-categories afc-categories--style-1">
                                                                 <span className="afc-portfolio-item__category afc-categories__item">
-                                                                  {t("machineParts.wheat")}
+                                                                  {t(
+                                                                    "machineParts.wheat"
+                                                                  )}
                                                                 </span>
                                                               </div>
                                                             </div>
@@ -344,11 +352,15 @@ const Section = () => {
                                                             </div>
                                                             <div className="afc-portfolio-item__content">
                                                               <h5 className="afc-portfolio-item__title">
-                                                              {t("machineParts.weightMachine")}
+                                                                {t(
+                                                                  "machineParts.weightMachine"
+                                                                )}
                                                               </h5>
                                                               <div className="afc-categories afc-categories--style-1">
                                                                 <span className="afc-portfolio-item__category afc-categories__item">
-                                                                  {t("machineParts.electric")}
+                                                                  {t(
+                                                                    "machineParts.electric"
+                                                                  )}
                                                                 </span>
                                                               </div>
                                                             </div>
@@ -376,11 +388,15 @@ const Section = () => {
                                                             </div>
                                                             <div className="afc-portfolio-item__content">
                                                               <h5 className="afc-portfolio-item__title">
-                                                              {t("machineParts.bag")}
+                                                                {t(
+                                                                  "machineParts.bag"
+                                                                )}
                                                               </h5>
                                                               <div className="afc-categories afc-categories--style-1">
                                                                 <span className="afc-portfolio-item__category afc-categories__item">
-                                                                  {t("machineParts.textile")}
+                                                                  {t(
+                                                                    "machineParts.textile"
+                                                                  )}
                                                                 </span>
                                                               </div>
                                                             </div>
@@ -408,7 +424,9 @@ const Section = () => {
                                                             </div>
                                                             <div className="afc-portfolio-item__content">
                                                               <h5 className="afc-portfolio-item__title">
-                                                                {t("machineParts.electronics")}
+                                                                {t(
+                                                                  "machineParts.electronics"
+                                                                )}
                                                               </h5>
                                                               <div className="afc-categories afc-categories--style-1">
                                                                 <span className="afc-portfolio-item__category afc-categories__item">
@@ -442,11 +460,15 @@ const Section = () => {
                                                             </div>
                                                             <div className="afc-portfolio-item__content">
                                                               <h5 className="afc-portfolio-item__title">
-                                                                {t("machineParts.machinePart")}
+                                                                {t(
+                                                                  "machineParts.machinePart"
+                                                                )}
                                                               </h5>
                                                               <div className="afc-categories afc-categories--style-1">
                                                                 <span className="afc-portfolio-item__category afc-categories__item">
-                                                                  {t("machineParts.grain")}
+                                                                  {t(
+                                                                    "machineParts.grain"
+                                                                  )}
                                                                 </span>
                                                               </div>
                                                             </div>
@@ -502,7 +524,9 @@ const Section = () => {
                                                 <div>
                                                   <h2 className="afc-heading__title default">
                                                     <span className="afc-heading__title__text afc-heading__title__main">
-                                                    {t("publicReview.connectMsg")}
+                                                      {t(
+                                                        "publicReview.connectMsg"
+                                                      )}
                                                       &amp;
                                                       <br />
                                                       {t("publicReview.update")}
@@ -524,9 +548,7 @@ const Section = () => {
                                                 "_fadeInUpSm",
                                               "animation-name": "_fadeInUpSm",
                                             }}
-                                          >
-                                           
-                                          </div>
+                                          ></div>
                                           <div
                                             className="wow afc-animate-widget fadeInDown elementor-element elementor-element-f44331e elementor-widget__width-auto elementor-absolute elementor-widget elementor-widget-afracode-shape"
                                             data-wow-duration="2400ms"
@@ -834,7 +856,9 @@ const Section = () => {
                                                     {t("nav.transportation")}
                                                   </h4>
                                                   <p className="afc-infobox-img__description">
-                                                    {t("service.transportation")}
+                                                    {t(
+                                                      "service.transportation"
+                                                    )}
                                                   </p>
                                                 </div>
                                               </div>
@@ -902,7 +926,6 @@ const Section = () => {
                                                     <span className="afc-heading__title__text afc-heading__title__main">
                                                       {t("details.review")}
                                                       <br />
-                                                      
                                                     </span>
                                                   </h2>
                                                 </div>
