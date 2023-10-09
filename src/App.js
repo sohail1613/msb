@@ -15,6 +15,7 @@ import Footer from "./components/Footer";
 import Electric from "./components/services/electric/Electric";
 import Makina from "./components/services/makina/Makina";
 import Nakliye from "./components/services/nakliye/Nakliye";
+import Gallery from "./components/Gallery";
 
 // Contains the value and text for the options
 const languages = [
@@ -46,7 +47,8 @@ function App() {
             <Route path="/makina" element={<Makina />} />
             <Route path="/electric" element={<Electric />} />
             <Route path="/nakliya" element={<Nakliye />} />
-            <Route path="/annoucement" element={<Announcement />} />
+            {/* <Route path="/annoucement" element={<Announcement />} /> */}
+            <Route path="/gallery" element={<Gallery />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </Router>

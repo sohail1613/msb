@@ -1,3 +1,9 @@
+
+
+
+
+
+
 import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import "./Header.css";
@@ -109,7 +115,7 @@ const Header = () => {
                     className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1501"
                     data-menu-anchor  
                   >
-                    <a href="#">{t("nav.gallery")}</a>
+                    <a href="/gallery">{t("nav.gallery")}</a>
                   </li>
                   <li
                     id="nav-menu-item-1502"
